@@ -1,0 +1,691 @@
+<section class="page-wrapper">
+  <div class="browse-tasks">
+
+    <div class="filters">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="filter bg-dark">
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon2">
+                                                    <i class="fas fa-search"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Search Task"
+                                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon2">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Location"
+                                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <div class="form-group text-white">
+                                            <span for="formControlRange">Find By Distance</span>
+                                            <span class="float-right">100 km</span>
+                                            <input type="range" class="form-control-range mt-1" id="formControlRange">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        
+                                        <button type="button" class="btn btn-web float-right" data-toggle="modal"
+                                            data-target="#categoryModal">
+                                            Find By Category
+                                        </button>
+                                    
+
+                                    </div>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <div class="task-box">
+                            <p class="font-weight-bold float-right m-0 mb-2 text-web">10 Tasks Found</p>
+                            <div class="clearfix"></div>
+                            <div class="border mb-2"></div>
+                            <div class="task-list">
+                                <div class="task" #task>
+                                    <p class="font-weight-bold m-0">
+                                        Task Title
+                                        <span style="font-size: 16px;" class="float-right">CA$ 200</span>
+                                    </p>
+                                    <p class="text-muted text-truncate m-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                        magna
+                                        aliqua.
+                                    </p>
+                                    <p class="m-0">
+                                        <i class="fas fa-map-marker-alt"></i> Location
+                                        <span class="float-right"><i class="fas fa-calendar"></i> Jan 17, 2020</span>
+                                    </p>
+
+                                    <p class="m-0">
+                                        <span class="badge badge-outline-success">Open</span>
+                                        <span class="text-muted">12 Offers</span>
+                                        <span class="badge badge-secondary float-right">Cleaning</span>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="task active" #task>
+                                    <p class="font-weight-bold m-0">
+                                        Task Title
+                                        <span style="font-size: 16px;" class="float-right">CA$ 200</span>
+                                    </p>
+                                    <p class="text-muted text-truncate m-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                        magna
+                                        aliqua.
+                                    </p>
+                                    <p class="m-0">
+                                        <i class="fas fa-map-marker-alt"></i> Location
+                                        <span class="float-right"><i class="fas fa-calendar"></i> Jan 17, 2020</span>
+                                    </p>
+
+                                    <p class="m-0">
+                                        <span class="badge badge-outline-success">Open</span>
+                                        <span class="text-muted">12 Offers</span>
+                                        <span class="badge badge-secondary float-right">Moving</span>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="task" #task>
+                                    <p class="font-weight-bold m-0">
+                                        Task Title
+                                        <span style="font-size: 16px;" class="float-right">CA$ 200</span>
+                                    </p>
+                                    <p class="text-muted text-truncate m-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                        magna
+                                        aliqua.
+                                    </p>
+                                    <p class="m-0">
+                                        <i class="fas fa-map-marker-alt"></i> Location
+                                        <span class="float-right"><i class="fas fa-calendar"></i> Jan 17, 2020</span>
+                                    </p>
+                                
+                                    <p class="m-0">
+                                        <span class="badge badge-outline-success">Open</span>
+                                        <span class="text-muted">12 Offers</span>
+                                        <span class="badge badge-secondary float-right">Cleaning</span>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="task" #task>
+                                    <p class="font-weight-bold m-0">
+                                        Task Title
+                                        <span style="font-size: 16px;" class="float-right">CA$ 200</span>
+                                    </p>
+                                    <p class="text-muted text-truncate m-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                        magna
+                                        aliqua.
+                                    </p>
+                                    <p class="m-0">
+                                        <i class="fas fa-map-marker-alt"></i> Location
+                                        <span class="float-right"><i class="fas fa-calendar"></i> Jan 17, 2020</span>
+                                    </p>
+                                
+                                    <p class="m-0">
+                                        <span class="badge badge-outline-success">Open</span>
+                                        <span class="text-muted">12 Offers</span>
+                                        <span class="badge badge-secondary float-right">Cleaning</span>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="task" #task>
+                                    <p class="font-weight-bold m-0">
+                                        Task Title
+                                        <span style="font-size: 16px;" class="float-right">CA$ 200</span>
+                                    </p>
+                                    <p class="text-muted text-truncate m-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                        magna
+                                        aliqua.
+                                    </p>
+                                    <p class="m-0">
+                                        <i class="fas fa-map-marker-alt"></i> Location
+                                        <span class="float-right"><i class="fas fa-calendar"></i> Jan 17, 2020</span>
+                                    </p>
+                                
+                                    <p class="m-0">
+                                        <span class="badge badge-outline-success">Open</span>
+                                        <span class="text-muted">12 Offers</span>
+                                        <span class="badge badge-secondary float-right">Cleaning</span>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="task" #task>
+                                    <p class="font-weight-bold m-0">
+                                        Task Title
+                                        <span style="font-size: 16px;" class="float-right">CA$ 200</span>
+                                    </p>
+                                    <p class="text-muted text-truncate m-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                        magna
+                                        aliqua.
+                                    </p>
+                                    <p class="m-0">
+                                        <i class="fas fa-map-marker-alt"></i> Location
+                                        <span class="float-right"><i class="fas fa-calendar"></i> Jan 17, 2020</span>
+                                    </p>
+                                
+                                    <p class="m-0">
+                                        <span class="badge badge-outline-success">Open</span>
+                                        <span class="text-muted">12 Offers</span>
+                                        <span class="badge badge-secondary float-right">Cleaning</span>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="task" #task>
+                                    <p class="font-weight-bold m-0">
+                                        Task Title
+                                        <span style="font-size: 16px;" class="float-right">CA$ 200</span>
+                                    </p>
+                                    <p class="text-muted text-truncate m-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                        magna
+                                        aliqua.
+                                    </p>
+                                    <p class="m-0">
+                                        <i class="fas fa-map-marker-alt"></i> Location
+                                        <span class="float-right"><i class="fas fa-calendar"></i> Jan 17, 2020</span>
+                                    </p>
+
+                                    <p class="m-0">
+                                        <span class="badge badge-outline-success">Open</span>
+                                        <span class="text-muted">12 Offers</span>
+                                        <span class="badge badge-secondary float-right">Furniture Assembly</span>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="task" #task>
+                                    <p class="font-weight-bold m-0">
+                                        Task Title
+                                        <span style="font-size: 16px;" class="float-right">CA$ 200</span>
+                                    </p>
+                                    <p class="text-muted text-truncate m-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                        magna
+                                        aliqua.
+                                    </p>
+                                    <p class="m-0">
+                                        <i class="fas fa-map-marker-alt"></i> Location
+                                        <span class="float-right"><i class="fas fa-calendar"></i> Jan 17, 2020</span>
+                                    </p>
+
+                                    <p class="m-0">
+                                        <span class="badge badge-outline-success">Open</span>
+                                        <span class="text-muted">12 Offers</span>
+                                        <span class="badge badge-secondary float-right">Gardning</span>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="task" #task>
+                                    <p class="font-weight-bold m-0">
+                                        Task Title
+                                        <span style="font-size: 16px;" class="float-right">CA$ 200</span>
+                                    </p>
+                                    <p class="text-muted text-truncate m-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                        magna
+                                        aliqua.
+                                    </p>
+                                    <p class="m-0">
+                                        <i class="fas fa-map-marker-alt"></i> Location
+                                        <span class="float-right"><i class="fas fa-calendar"></i> Jan 17, 2020</span>
+                                    </p>
+
+                                    <p class="m-0">
+                                        <span class="badge badge-success">Open</span>
+                                        <span class="text-muted">12 Offers</span>
+                                        <span class="badge badge-web float-right">Handy Man</span>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="task" #task>
+                                    <p class="font-weight-bold m-0">
+                                        Task Title
+                                        <span style="font-size: 16px;" class="float-right">CA$ 200</span>
+                                    </p>
+                                    <p class="text-muted text-truncate m-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                        magna
+                                        aliqua.
+                                    </p>
+                                    <p class="m-0">
+                                        <i class="fas fa-map-marker-alt"></i> Location
+                                        <span class="float-right"><i class="fas fa-calendar"></i> Jan 17, 2020</span>
+                                    </p>
+
+                                    <p class="m-0">
+                                        <span class="badge badge-success">Open</span>
+                                        <span class="text-muted">12 Offers</span>
+                                        <span class="badge badge-web float-right">Snow Plowing</span>
+                                    </p>
+                                </div>
+                            </div> <!-- Task List End -->
+                        </div> <!-- Task Box End -->
+                    </div> <!-- End Col-md-3 -->
+
+                    <div class="col-md-6">
+                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="job-details-tab" data-toggle="tab" href="#job-details" role="tab"
+                                    aria-controls="job-details" aria-selected="true">
+                                    <i class="fas fa-tasks"></i> Task Details
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                                    aria-selected="false">
+                                    <i class="far fa-file-alt"></i> Proposals
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="task-detail-box">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="job-details" role="tabpanel" aria-labelledby="job-details-tab">
+                                    <h3 class="heading">
+                                        <span class="font-weight-bold">Job Details</span>
+                                        <span class="float-right price">CA$ 200</span>
+                                    </h3>
+                                    <div class="border mb-3"></div>
+                                    <h4 class="heading">[Job Title] - Need Job To Be Done 
+                                        <span class="badge badge-outline-success float-right">OPEN</span>
+                                    </h4>
+                                    <p class="text-justify text">
+                                        [Job Details] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis
+                                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <hr class="mb-0">
+                                    <div class="d-flex text">
+                                        <div class="p-1 flex-fill">
+                                            <span class="font-weight-bold text-dark"><i class="fas fa-user"></i> Posted By</span><br>
+                                            Full Name
+                                        </div>
+                                        <div class="p-1 flex-fill text-center">
+                                            <span class="font-weight-bold text-dark"><i class="fas fa-calendar"></i> Date</span><br>
+                                            17, Jan 2020
+                                        </div>
+                                        <div class="p-1 flex-fill text-right">
+                                            <span class="font-weight-bold text-dark"><i class="fas fa-map-marker-alt"></i> Location</span><br>
+                                            Calgary, T2X 0T4
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <hr class="mt-0">
+                                    <div class="map text-center">
+                                        <i class="fas fa-map fa-5x"> MAP</i>
+                                    </div>
+                
+                                    <div class="post-bid mt-3">
+                                        <div class="border rounded-lg p-2">
+                                            <p class="font-weight-bold text-web m-0"><i class="fas fa-info-circle"></i> Note</p>
+                                            <p class="m-0 text-muted">Please do not share persoanl info - insurance won't apply to task not done throught dgiini
+                                            </p>
+                                        </div>
+                                        
+                                        <h6 class="mt-2">Your Proposal</h6>
+                                        <textarea class="form-control" name="" id="" rows="4"
+                                            placeholder="Descrive your strategy here, how you're gonna achieve this task"></textarea>
+                                        <h6 class="mt-2">Your Price</h6>
+                                        <input type="number" class="form-control" placeholder="Your Price">
+                                        <button class="btn mt-2 btn-web float-right">Post Bid</button>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div> <!-- End Job Details -->
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <h3 class="heading">
+                                        Proposals 
+                                        <span class="float-right">4 Bids</span>
+                                    </h3>
+                                    <hr>
+                                    <div class="proposal">
+                                        <div class="user-info">
+                                            <img src="../../assets/img/user.jpg" alt="User Image" class="user-img">
+                                            <p class="user-details">
+                                                <span class="font-weight-bold">
+                                                    Full Name 
+                                                    <span class="badge badge-web"><i class="fas fa-trophy"></i> Badge</span>
+                                                    <span class="float-right font-weight-bold price">CA$ 150</span>
+                                                </span>
+                                                <br>
+                                                <span>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <span class="badge badge-rating mt-1">5.0</span>
+                                                    <span class="text-muted">10 Reviews</span>
+                                                </span>
+                                            </p>
+                                        </div>      
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </p>
+                                        <div class="clearfix">
+                                            <button class="btn btn-danger btn-sm float-right"><i class="fas fa-times"></i> Reject</button>
+                                            <button class="btn btn-success btn-sm float-right ml-1 mr-1"><i class="fas fa-check"></i> Accept</button>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="proposal">
+                                        <div class="user-info">
+                                            <img src="../../assets/img/user.jpg" alt="User Image" class="user-img">
+                                            <p class="user-details">
+                                                <span class="font-weight-bold">
+                                                    Full Name
+                                                    <span class="badge badge-web"><i class="fas fa-trophy"></i> Badge</span>
+                                                    <span class="float-right font-weight-bold price">CA$ 150</span>
+                                                </span>
+                                                <br>
+                                                <span>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <span class="badge badge-rating mt-1">5.0</span>
+                                                    <span class="text-muted">10 Reviews</span>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                            magna
+                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        </p>
+                                        <div class="clearfix">
+                                            <button class="btn btn-danger btn-sm float-right"><i class="fas fa-times"></i> Reject</button>
+                                            <button class="btn btn-success btn-sm float-right ml-1 mr-1"><i class="fas fa-check"></i> Accept</button>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="proposal">
+                                        <div class="user-info">
+                                            <img src="../../assets/img/user.jpg" alt="User Image" class="user-img">
+                                            <p class="user-details">
+                                                <span class="font-weight-bold">
+                                                    Full Name
+                                                    <span class="badge badge-web"><i class="fas fa-trophy"></i> Badge</span>
+                                                    <span class="float-right font-weight-bold price">CA$ 150</span>
+                                                </span>
+                                                <br>
+                                                <span>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <span class="badge badge-rating mt-1">5.0</span>
+                                                    <span class="text-muted">10 Reviews</span>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                            magna
+                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        </p>
+                                        <div class="clearfix">
+                                            <button class="btn btn-danger btn-sm float-right"><i class="fas fa-times"></i> Reject</button>
+                                            <button class="btn btn-success btn-sm float-right ml-2 mr-2"><i class="fas fa-check"></i> Accept</button>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="proposal">
+                                        <div class="user-info">
+                                            <img src="../../assets/img/user.jpg" alt="User Image" class="user-img">
+                                            <p class="user-details">
+                                                <span class="font-weight-bold">
+                                                    Full Name
+                                                    <span class="badge badge-web"><i class="fas fa-trophy"></i> Badge</span>
+                                                    <span class="float-right font-weight-bold price">CA$ 150</span>
+                                                </span>
+                                                <br>
+                                                <span>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <span class="badge badge-rating mt-1">5.0</span>
+                                                    <span class="text-muted">10 Reviews</span>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                            magna
+                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        </p>
+                                        <div class="clearfix">
+                                            <button class="btn btn-danger btn-sm float-right"><i class="fas fa-times"></i> Reject</button>
+                                            <button class="btn btn-success btn-sm float-right ml-2 mr-2"><i class="fas fa-check"></i> Accept</button>
+                                        </div>
+                                    </div>
+                                </div> <!-- End Proposals -->
+                            </div> <!-- End Tab Content -->
+    
+                        </div> <!-- End Task Details -->
+                    </div> <!-- End Col-md-6 -->
+
+                    <div class="col-md-3">
+                        <div class="recommended-taskers">
+                            <h5 class="font-weight-bold heading text-web">Recommended Taskers</h5>
+                            <div class="border mb-3"></div>
+                            <div class="user-info">
+                                <img src="../../assets/img/user.jpg" alt="User Image" class="user-img">
+                                <div class="user-details">
+                                    <p class="m-0 font-weight-bold">Full Name <i class="fas fa-times float-right"></i></p>
+                                    <p class="m-0">@username</p>
+                                </div>
+                                <div class="user-skills mt-3">
+                                    <p class="m-0 font-weight-bold">
+                                        Skills: 
+                                        <span class="badge badge-default">Cleaning</span>
+                                        <span class="badge badge-default">Gardening</span>
+                                    </p>
+                                    <p class="m-0">
+                                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </p>
+                                    <p class="m-0 mt-1 font-weight-bold">
+                                        Rating:
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="badge badge-rating">5.0</span>
+                                    </p>
+                                </div>
+                            </div> <!--User Info End-->
+                            <hr>
+                            <div class="user-info">
+                                <img src="../../assets/img/user.jpg" alt="User Image" class="user-img">
+                                <div class="user-details">
+                                    <p class="m-0 font-weight-bold">Full Name <i class="fas fa-times float-right"></i></p>
+                                    <p class="m-0">@username</p>
+                                </div>
+                                <div class="user-skills mt-3">
+                                    <p class="m-0 font-weight-bold">
+                                        Skills:
+                                        <span class="badge badge-default">Furniture Assembly</span>
+                                        <span class="badge badge-default">Moving</span>
+                                    </p>
+                                    <p class="m-0">
+                                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </p>
+                                    <p class="m-0 mt-1 font-weight-bold">
+                                        Rating:
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="badge badge-rating">5.0</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--User Info End-->
+                            <hr>
+                            <div class="user-info">
+                                <img src="../../assets/img/user.jpg" alt="User Image" class="user-img">
+                                <div class="user-details">
+                                    <p class="m-0 font-weight-bold">Full Name <i class="fas fa-times float-right"></i></p>
+                                    <p class="m-0">@username</p>
+                                </div>
+                                <div class="user-skills mt-3">
+                                    <p class="m-0 font-weight-bold">
+                                        Skills:
+                                        <span class="badge badge-default">Child Care</span>
+                                    </p>
+                                    <p class="m-0">
+                                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </p>
+                                    <p class="m-0 mt-1 font-weight-bold">
+                                        Rating: N/R
+                                    </p>
+                                </div>
+                            </div>
+                            <!--User Info End-->
+                            <hr>
+                            <div class="user-info">
+                                <img src="../../assets/img/user.jpg" alt="User Image" class="user-img">
+                                <div class="user-details">
+                                    <p class="m-0 font-weight-bold">Full Name <i class="fas fa-times float-right"></i></p>
+                                    <p class="m-0">@username</p>
+                                </div>
+                                <div class="user-skills mt-3">
+                                    <p class="m-0 font-weight-bold">
+                                        Skills:
+                                        <span class="badge badge-default">Handy Man</span>
+                                        <span class="badge badge-default">Snow Plowing</span>
+                                    </p>
+                                    <p class="m-0">
+                                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </p>
+                                    <p class="m-0 mt-1 font-weight-bold">
+                                        Rating:
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="badge badge-rating">5.0</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--User Info End-->
+                        </div>
+                    </div>
+                </div> <!-- End Row -->
+    </div> <!-- End Container Fluid -->
+
+  </div> <!-- End Browse Tasks -->
+</section> <!-- End Page-Wrapper -->
+
+
+<!-- Category Modal -->
+<div class="modal fade" id="categoryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Categories</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Cleaning</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck2">
+              <label class="form-check-label" for="exampleCheck2">Gardening</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck3">
+              <label class="form-check-label" for="exampleCheck3">Handy Man</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck4">
+              <label class="form-check-label" for="exampleCheck4">Furniture Assembly</label>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck5">
+              <label class="form-check-label" for="exampleCheck5">Lawn Moving</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck6">
+              <label class="form-check-label" for="exampleCheck6">Snow Plowing</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck7">
+              <label class="form-check-label" for="exampleCheck7">Child Care</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck8">
+              <label class="form-check-label" for="exampleCheck8">Moving</label>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-web">Apply Filter</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Category Modal -->
